@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudios</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .timeline {
+            position: relative;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .timeline-event {
+            padding: 10px;
+            position: relative;
+            width: 50%;
+            left: 50%;
+            margin-bottom: 20px;
+            border-radius: 6px;
+        }
+        .timeline-event:nth-child(odd) {
+            left: 0;
+        }
+        .timeline-event:nth-child(even) {
+            left: 50%;
+        }
+        .timeline-event h3 {
+            margin: 0;
+        }
+        .timeline-event p {
+            margin: 5px 0;
+        }
+        .timeline-event::before {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: -20px;
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            background: #80B2BA;
+        }
+        .timeline-event:nth-child(even)::before {
+            left: auto;
+            right: -20px;
+        }
+        .timeline-title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <i style="font-size: 200%; color: #80B2BA;">MI BLOG PERSONAL</i>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="datos personales.html">Datos Personales</a></li>
+                    <li><a href="estudios.html">Estudios</a></li>
+                    <li><a href="objetivos.html">Objetivos</a></li>
+                    <li><a href="hobbies.html">Hobbies</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="javascript:history.back()" class="btn-regreso">Regresar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="posts">
+        <div class="container">
+            <article>
+                <h2 class="timeline-title" style="color: #9575A1">Estudios</h2>
+                <div class="timeline">
+                    <div class="timeline-event">
+                      <h3 style="color: #A698C5"> <b>2007</b> - Preescolar</h3>
+                      <b><p>Josefa Ortiz de Domínguez</p></b>
+                      <p>En esta etapa fue complicada adaptarme porque no podía hacer amigos ya que no hablaba Español.</p>
+                        <img src="https://i.pinimg.com/enabled_lo/564x/8a/23/62/8a2362ebec629d483af26e2c2ab036c4.jpg" style="border: 5px solid #65576A;" height="150px" width="150px" />
+                    </div>
+                    <div class="timeline-event">
+                      <h3 style="color: #A698C5"><b> 2009</b> - Primaria</h3>
+                      <b><p>Felipe Santiago</p></b>
+                      <p>Esta etapa es una de las que más disfrute porque tenía un grupo de amigos que nos uniamos para hacer trabajos o desayunar, actualmente seguimos todos en contacto.</p>
+       <img src="https://i.pinimg.com/enabled_lo/564x/25/26/8c/25268cd7e7e7d7bd67f71cb37406a568.jpg" style="border: 5px solid #65576A;" height="150px" width="150px" />    
+                    </div>
+                  
+                  <div class="timeline-event">
+                      <h3 style="color: #A698C5"><b> 2015</b> - Secundaria</h3>
+                    <p><b>Raúl Isidro Burgos</b></p>
+                    <p>En esta etapa conocí a mi mejor amiga, es una de las etapas donde comence a salir más con mis amigas, saliamos a comer, venían a mi casa o ibamos a los ensayos de nuestros quince años.</p>
+                    <img src="https://i.pinimg.com/564x/4b/d7/ef/4bd7efba169951f76756ce00be56e5f2.jpg" style="border: 5px solid #65576A;" height="150px" width="150px" />
+                    </div>
+                  
+                  <div class="timeline-event">
+                      <h3 style="color: #A698C5"><b> 2018</b> - Preparatoria</h3>
+                    <b><p>COBAT</p></b>
+                    <p>Esta esta fue complicada porque tenía la presión de saber escoger que carrera, universidad y estudiar para el examen de admisión.</p>
+          <img src="https://i.pinimg.com/736x/b3/16/ac/b316acc60cb7f2d6129cfc461f602a8a.jpg" style="border: 5px solid #65576A;" height="150px" width="150px" />  
+                    </div>
+                    
+                  <div class="timeline-event">
+                      <h3 style="color: #A698C5"><b> 2021</b> - Universidad</h3>
+                    <b><p>Instituto Tecnológico de Puebla</p></b>
+                    <p>Sigo en esta etapa, solo sé que ha sido aprendizajes constantes y conocer nuevas personas.</p>
+           <img src="https://i.pinimg.com/enabled_lo/564x/73/49/99/7349997a4d07fbb97180c9a526fb88ff.jpg" style="border: 5px solid #65576A;" height="150px" width="150px" />
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Mi Blog Personal <3</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
